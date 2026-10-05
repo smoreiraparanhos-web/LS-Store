@@ -1,0 +1,10 @@
+LS STORES - site estático (HTML/CSS/JS), sem dependências.
+
+1. Abra index.html no navegador para ver.
+2. js/main.js: preencha WHATSAPP_NUMBER com DDI+DDD e somente dígitos (ex.: "5551999999999"). Vazio abre o WhatsApp sem destinatário.
+3. Edite PRODUCTS em js/main.js para atualizar o catálogo. Cada item usa id, category, name, description, image e fallback. Use imagens próprias com autorização e mantenha um fallback local em images/.
+4. Atualize os nomes de marcas em index.html somente de acordo com a política da loja. As marcas são referências de busca, pertencem aos seus titulares e não indicam parceria ou disponibilidade.
+5. As imagens atuais do catálogo são referências visuais servidas pelo Unsplash e precisam de conexão com a internet. As ilustrações da pasta images/ são usadas como fallback.
+6. Publique a pasta inteira em uma hospedagem estática (Netlify, Vercel, GitHub Pages, Hostinger etc.).
+
+Não há preços ou estoque garantido no site. A sacola organiza os itens escolhidos e envia a consulta de disponibilidade e valores pelo WhatsApp.

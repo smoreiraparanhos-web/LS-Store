@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#11120f">
+<title>LS STORES — Vista seu próximo movimento</title>
+<meta name="description" content="Moda, acessórios, perfumes e cuidados pessoais em um só lugar. Descubra seu próximo favorito na LS Stores e compre pelo WhatsApp.">
+<link rel="preconnect" href="https://images.unsplash.com">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="announcement"><div class="w announcement-inner"><span>SEU ESTILO. SUAS REGRAS.</span><span>Atendimento direto e personalizado pelo WhatsApp</span></div></div>
+<header>
+  <div class="w nav">
+    <a href="#inicio" class="logo" aria-label="LS Stores - início"><span class="logo-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>LS <em>STORES</em></span></a>
+    <nav aria-label="Navegação principal"><ul id="menu">
+      <li><a href="#inicio">Início</a></li><li><a href="#produtos">Novidades</a></li><li><a href="#categorias">Categorias</a></li><li><a href="#marcas">Marcas</a></li><li><a href="#sobre">A LS</a></li>
+    </ul></nav>
+    <div class="nav-actions"><a class="nav-contact" href="#contato">Fale com a gente</a><button class="cart-button" id="cart-open" type="button" aria-label="Abrir sacola, 0 itens"><span aria-hidden="true">▱</span><b>Sacola</b><span id="cart-count" class="cart-count">0</span></button></div>
+    <button class="burger" id="bg" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"><i></i><i></i></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="inicio">
+    <div class="hero-lines" aria-hidden="true"><i></i><i></i><i></i></div>
+    <div class="w hgrid">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> Moda, atitude & cuidado</p>
+        <h1>VISTA SEU<br>PRÓXIMO <em>MOVIMENTO.</em></h1>
+        <p class="lead">Do look que chega primeiro ao perfume que fica na memória: encontre peças e detalhes que têm tudo a ver com você.</p>
+        <div class="row"><a class="btn p" href="#produtos">Descobrir novidades <span aria-hidden="true">↗</span></a><a class="text-link" data-wa="Olá! Vim pelo site da LS Stores e quero conhecer as novidades." href="#">Converse com a LS Stores <span aria-hidden="true">→</span></a></div>
+        <div class="hero-proof"><span class="proof-icon" aria-hidden="true">✓</span><span>Atendimento próximo. Escolha sem pressa.</span></div>
+      </div>
+      <div class="hero-visual">
+        <img src="https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&amp;fit=crop&amp;w=1100&amp;q=85" alt="Look urbano esportivo em tons neutros" onerror="this.onerror=null;this.src='images/hero.svg'">
+        <div class="hero-tag"><span>LS / EDIT</span><b>ESTILO<br>EM MOVIMENTO</b><span>DA MANHÃ À NOITE</span></div>
+        <div class="hero-stamp" aria-hidden="true">VAI<br>COM<br>VOCÊ<span>↗</span></div>
+      </div>
+    </div>
+    <div class="w hero-bottom"><span>FEITO PARA O SEU RITMO</span><span class="hero-bottom-line"></span><span>LS STORES — EVERYDAY EDIT</span></div>
+  </section>
+
+  <div class="ticker" aria-label="Moda, fragrâncias e acessórios para o seu dia a dia"><div class="ticker-track"><span>VISTA A SUA ATITUDE <i>✳</i> DO STREET AO ESSENCIAL <i>✳</i> PERFUME, PRESENÇA, PERSONALIDADE <i>✳</i> CADA DETALHE CONTA <i>✳</i> </span><span aria-hidden="true">VISTA A SUA ATITUDE <i>✳</i> DO STREET AO ESSENCIAL <i>✳</i> PERFUME, PRESENÇA, PERSONALIDADE <i>✳</i> CADA DETALHE CONTA <i>✳</i> </span></div></div>
+
+  <section id="produtos" class="catalog">
+    <div class="w">
+      <div class="section-heading">
+        <div><p class="eyebrow"><span></span> Escolhas da LS</p><h2>Seu próximo <em>favorito</em><br>está aqui.</h2></div>
+        <p class="section-intro">Explore peças, fragrâncias e acessórios. Gostou de algo? Coloque na sacola e consulte disponibilidade, tamanho e valor com nosso time.</p>
+      </div>
+      <div class="catalog-tools">
+        <div class="tabs" id="tabs" role="group" aria-label="Filtrar produtos por categoria"></div>
+        <label class="search"><span aria-hidden="true">⌕</span><input id="product-search" type="search" placeholder="Buscar no catálogo" aria-label="Buscar produtos"></label>
+      </div>
+      <p id="result-count" class="result-count" aria-live="polite"></p>
+      <div class="grid" id="grid"></div>
+      <div class="catalog-note"><span aria-hidden="true">✳</span> Estoque e valores variam. Consulte a disponibilidade pelo WhatsApp antes de finalizar.</div>
+    </div>
+  </section>
+
+  <section id="categorias" class="categories-section">
+    <div class="w">
+      <div class="section-heading compact">
+        <div><p class="eyebrow"><span></span> Mais do seu jeito</p><h2>Encontre sua <em>vibe.</em></h2></div>
+        <p class="section-intro">Um só destino para renovar o visual e cuidar dos detalhes — porque estilo também é tudo aquilo que vai com você.</p>
+      </div>
+      <div class="category-grid">
+        <a class="category-tile" href="#produtos" data-filter="Roupas"><img src="https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&amp;fit=crop&amp;w=750&amp;q=80" alt="Moda urbana e roupas para compor seu visual" loading="lazy" onerror="this.onerror=null;this.src='images/camisetas.svg'"><span class="tile-kicker">WEAR</span><span class="tile-label">Roupas <b>↗</b></span></a>
+        <a class="category-tile" href="#produtos" data-filter="Perfumes"><img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&amp;fit=crop&amp;w=750&amp;q=80" alt="Frasco de perfume em composição sofisticada" loading="lazy" onerror="this.onerror=null;this.src='images/acessorios.svg'"><span class="tile-kicker">SCENT</span><span class="tile-label">Perfumes <b>↗</b></span></a>
+        <a class="category-tile" href="#produtos" data-filter="Acessórios"><img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&amp;fit=crop&amp;w=750&amp;q=80" alt="Joias e acessórios para completar o look" loading="lazy" onerror="this.onerror=null;this.src='images/acessorios.svg'"><span class="tile-kicker">DETAILS</span><span class="tile-label">Acessórios <b>↗</b></span></a>
+        <a class="category-tile" href="#produtos" data-filter="Cuidados"><img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&amp;fit=crop&amp;w=750&amp;q=80" alt="Produtos de cuidado pessoal para a rotina" loading="lazy" onerror="this.onerror=null;this.src='images/acessorios.svg'"><span class="tile-kicker">SELF CARE</span><span class="tile-label">Cuidados <b>↗</b></span></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="marcas" class="brand-section">
+    <div class="w brand-layout">
+      <div><p class="eyebrow"><span></span> Seu estilo, suas referências</p><h2>Marcas que<br>você <em>conhece.</em></h2><p class="brand-copy">Uma seleção multimarcas que acompanha tendências e clássicos. Procurando alguma em especial? Pergunte sobre disponibilidade.</p></div>
+      <div class="brand-cloud" aria-label="Marcas para consultar"><span>adidas</span><span>NIKE</span><span>PUMA</span><span>New Balance</span><span>Vans</span><span>Converse</span><span>GUCCI</span><span>Calvin Klein</span><span>Tommy Hilfiger</span><span>Lacoste</span><span>Jordan</span><span>Oakley</span><span>+ a sua</span></div>
+    </div>
+    <div class="w brand-disclaimer">Marcas citadas são referências de busca e pertencem aos seus respectivos titulares. Disponibilidade sob consulta. LS Stores é uma loja independente, sem afiliação declarada com essas marcas.</div>
+  </section>
+
+  <section id="sobre" class="about-section">
+    <div class="w about-layout">
+      <div class="about-image"><img src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Detalhes de peças de moda selecionadas" loading="lazy" onerror="this.onerror=null;this.src='images/moletons.svg'"><span>LS STORES<br>SELEÇÃO LS</span></div>
+      <div class="about-copy"><p class="eyebrow"><span></span> Mais que vestir</p><h2>Escolhas que<br>falam por <em>você.</em></h2><p>A LS Stores reúne moda, acessórios, perfumes e autocuidado em uma experiência simples, atual e feita para o seu ritmo.</p><p>Encontre inspiração, tire suas dúvidas com gente de verdade e combine cada detalhe diretamente com a nossa equipe.</p><div class="about-points"><div><b>ESTILO</b><span>Peças para<br>diferentes momentos</span></div><div><b>CUIDADO</b><span>Atendimento<br>atencioso e direto</span></div><div><b>PRATICIDADE</b><span>Compra fácil<br>pelo WhatsApp</span></div></div><a class="btn p" data-wa="Olá! Quero conhecer melhor a LS Stores." href="#">Fale com a LS Stores <span aria-hidden="true">↗</span></a></div>
+    </div>
+  </section>
+
+  <section class="steps-section">
+    <div class="w">
+      <div class="section-heading compact"><div><p class="eyebrow"><span></span> Sem mistério</p><h2>Escolheu.<br>Chamou. <em>Levou.</em></h2></div><p class="section-intro">Seu próximo look está a poucos toques. A gente ajuda com o resto.</p></div>
+      <ul class="steps"><li><b>Explore</b><p>Encontre sua peça, fragrância ou acessório favorito.</p></li><li><b>Adicione à sacola</b><p>Confira seus itens antes de falar com a gente.</p></li><li><b>Converse com a gente</b><p>Confirmamos disponibilidade, tamanhos e valores.</p></li><li><b>Combine e receba</b><p>Alinhamos pagamento e entrega direto com você.</p></li></ul>
+    </div>
+  </section>
+
+  <section class="faq-section"><div class="w faq-layout"><div><p class="eyebrow"><span></span> Dúvidas rápidas</p><h2>Conta com <em>a gente.</em></h2><p class="faq-help">Ainda ficou alguma dúvida? Nosso time está pronto para ajudar.</p><a class="text-link" data-wa="Olá! Tenho uma dúvida sobre a LS Stores." href="#">Tire sua dúvida no WhatsApp <span aria-hidden="true">→</span></a></div><div class="faq-list"><details><summary>Como consulto tamanhos e disponibilidade?<span>+</span></summary><p>Adicione o produto à sacola e envie sua seleção pelo WhatsApp. Confirmamos os tamanhos e as opções disponíveis no atendimento.</p></details><details><summary>Os preços aparecem no site?<span>+</span></summary><p>Os valores e condições são confirmados diretamente com nossa equipe pelo WhatsApp, junto com o estoque atualizado.</p></details><details><summary>Posso perguntar por uma marca ou produto específico?<span>+</span></summary><p>Claro! Chame a gente com o nome, modelo ou referência. Vamos verificar se temos a opção que você procura.</p></details><details><summary>Como funcionam pagamento e entrega?<span>+</span></summary><p>As opções de pagamento e entrega são alinhadas com transparência durante o atendimento, antes de concluir o pedido.</p></details></div></div></section>
+
+  <section class="social-section"><div class="w social-inner"><div><p class="eyebrow"><span></span> Siga a LS</p><h2>Inspiração para<br>o seu <em>dia a dia.</em></h2></div><a class="social-card" href="https://www.instagram.com/lsstores2025/" target="_blank" rel="noopener noreferrer"><span class="social-icon" aria-hidden="true">◎</span><span><small>INSTAGRAM</small><b>@lsstores2025</b></span><span class="social-arrow">↗</span></a></div></section>
+
+  <section id="contato" class="contact-section"><div class="w contact-inner"><p class="eyebrow"><span></span> Seu próximo movimento começa aqui</p><h2>Pronto para<br>encontrar <em>o seu?</em></h2><p>Chame a LS Stores. Vamos ajudar você a escolher o que combina com seu momento.</p><a class="btn dark-btn" data-wa="Olá! Vim pelo site da LS Stores e quero encontrar meu próximo favorito." href="#">Chamar no WhatsApp <span aria-hidden="true">↗</span></a><small>Atendimento direto • Compra sem complicação</small></div></section>
+</main>
+
+<footer><div class="w footer-main"><a href="#inicio" class="logo"><span class="logo-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>LS <em>STORES</em></span></a><p>Vista seu próximo movimento.</p><nav aria-label="Links do rodapé"><a href="#produtos">Catálogo</a><a href="#marcas">Marcas</a><a href="#contato">Contato</a><a href="https://www.instagram.com/lsstores2025/" target="_blank" rel="noopener noreferrer">Instagram ↗</a></nav></div><div class="w footer-bottom"><span>© <span id="yr"></span> LS Stores. Todos os direitos reservados.</span><span>Loja independente • Marcas pertencem a seus titulares</span></div></footer>
+
+<dialog class="cart-dialog" id="cart-dialog" aria-labelledby="cart-title"><div class="cart-head"><div><p class="eyebrow"><span></span> Sua seleção</p><h2 id="cart-title">Sua <em>sacola.</em></h2></div><button class="dialog-close" id="cart-close" type="button" aria-label="Fechar sacola">×</button></div><div id="cart-items" class="cart-items"></div><div class="cart-foot"><p>Valores e disponibilidade são confirmados no atendimento.</p><a class="btn p cart-checkout" id="cart-checkout" href="#" target="_blank" rel="noopener">Consultar e finalizar no WhatsApp <span aria-hidden="true">↗</span></a></div></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="js/main.js"></script>
+</body>
+</html>
