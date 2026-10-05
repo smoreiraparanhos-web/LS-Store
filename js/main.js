@@ -1,5 +1,5 @@
-// Número com DDI+DDD, só dígitos. Vazio abre o WhatsApp sem destinatário.
-var WHATSAPP_NUMBER = "";
+// Número com DDI+DDD, só dígitos.
+var WHATSAPP_NUMBER = "5551989706471";
 
 var PRODUCTS = [
   {id:"camiseta-essencial",category:"Camisetas",name:"Camiseta essencial",description:"Conforto leve para acompanhar qualquer plano.",image:"https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=720&q=80",fallback:"images/camisetas.svg"},
